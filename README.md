@@ -22,3 +22,13 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
+
+## Deploy with Ignition
+
+```shell
+# to deploy to a network
+npx hardhat ignition deploy ignition/modules/UniswapV2Periphery.ts --network <network-name>
+
+# use the --verify flag to also verify the deployment
+```
+
